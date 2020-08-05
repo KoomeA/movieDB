@@ -1,0 +1,18 @@
+.form input{
+    padding: 10px;
+}
+
+.form button{
+    text-transform: uppercase;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+#register {
+    display: none;
+}
+
+.login {
+    display: none;
+}
