@@ -4,7 +4,7 @@ const log = console.log;
 
 // Selecting elements from the DOM
 const searchButton = document.querySelector('#searchBtn');;
-const searchInput = document.querySelector('#exampleInputEmail1');
+const searchInput = document.querySelector('#searchInput');
 const moviesContainer = document.querySelector('#movies-container');
 const moviesSearchable = document.querySelector('#movies-searchable');
 
