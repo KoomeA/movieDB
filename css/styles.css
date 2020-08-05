@@ -1,0 +1,57 @@
+body{
+    background: grey;
+    height: 100vh;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+#inputValue{
+    width:760px;
+    padding:.375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: grey;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: .25rem;
+
+}
+
+#latest{
+    color:white;
+    background-color: orangered;
+    outline: none;
+    min-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding:.375rem .75rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+#movies-latest{
+    margin-top: 20px;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+
+section img{
+    width:300px;
+    transition: 250ms all;
+}
+
+img:hover{
+    margin-left: 0 40px;
+    transform:scale(1.2);
+    cursor:pointer;
+}
