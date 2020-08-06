@@ -220,3 +220,4 @@ searchUpcomingMovies();
 getTopRatedMovies();
 searchPopularMovie();
 getTrendingMovies();
+
