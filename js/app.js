@@ -35,7 +35,7 @@ function createIframe(video) {
     const iframe = document.createElement('iframe');
     iframe.src = `http://www.youtube.com/embed/${videoKey}`;
     iframe.width = 360;
-    iframe.height = 200;
+    iframe.height = 315;
     iframe.allowFullscreen = true;
     return iframe;
 }
@@ -51,13 +51,16 @@ function insertIframeIntoContent(video, content) {
 
 function createVideoTemplate(data) {
     const content = this.content;
+
     content.innerHTML = '<i class="fas fa-window-close" id="content-close"></i>';
 
-    const videos = data.results || [];
 
+    const videos = data.results || [];
     if (videos.length === 0) {
         content.innerHTML = `
+
             <i class="fas fa-window-close" id="content-close"></i>
+
             <p>No Trailer found for this video id of ${data.id}</p>
         `;
         return;
@@ -70,9 +73,8 @@ function createVideoTemplate(data) {
 }
 
 function createSectionHeader(title) {
-    const header = document.createElement('h4');
+    const header = document.createElement('h2');
     header.innerHTML = title;
-
     return header;
 }
 
@@ -220,4 +222,3 @@ searchUpcomingMovies();
 getTopRatedMovies();
 searchPopularMovie();
 getTrendingMovies();
-
