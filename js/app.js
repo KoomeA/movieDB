@@ -34,8 +34,8 @@ function createIframe(video) {
     const videoKey = (video && video.key) || 'No key found!!!';
     const iframe = document.createElement('iframe');
     iframe.src = `http://www.youtube.com/embed/${videoKey}`;
-    iframe.width = 360;
-    iframe.height = 315;
+    iframe.width = 240;
+    iframe.height = 150;
     iframe.allowFullscreen = true;
     return iframe;
 }
@@ -73,7 +73,7 @@ function createVideoTemplate(data) {
 }
 
 function createSectionHeader(title) {
-    const header = document.createElement('h2');
+    const header = document.createElement('h4');
     header.innerHTML = title;
     return header;
 }
