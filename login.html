@@ -7,16 +7,19 @@
     <title>Movie Database</title>
 </head>
 <body>
-
+                 <!--Login form-->
     <div class="login-page">
         <span id="log"><p>Have an account?<a href="#">Login</a></p></span>
         <div class="form">
             <form class="login">
-                <input type="text" placeholder="user-name">
-                <input type="text" placeholder="password"> <br>
-                <button>login</button>
-                
+                <div id="login-form">
+                     <input type="text" placeholder="user-name">
+                    <input type="password" placeholder="password"> <br>
+                    <button id="login-form-submit">login</button>
+                </div>
             </form>
+                <!--Registration form-->
+            
             <span id="notReg"><p class="message">Not registered? <a href="#">Register</a></p></span>
             <div id="register">
                 <from class="register-form">
@@ -29,9 +32,7 @@
             
         </div>
     </div>
-    
-    
-    
+
     <script src="./js/jQuery-3.5.1.js"></script>
     <script src="/js/app.js"></script>
 </body>
