@@ -5,17 +5,11 @@ html {
 
 body {
     margin: 0;
-    font-size: 1rem;
 }
 
 .container {
     padding: 20px;
     margin: 0 auto;
-}
-
-.onit {
-    background-image: url('../images/1.jpg');
-    
 }
 
 .movie {
@@ -65,13 +59,13 @@ section .imageContainer {
 }
 
 
-.fas {
+#content-close {
     cursor: pointer;
     position: absolute;
     top: 20px;
     padding: 10px;
     /* width: 35px;; */
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 45%;
     left: 20px;
 }
@@ -79,9 +73,9 @@ section .imageContainer {
 
 .imageContainer {
     transition: 250ms all;
-    width: 200px;
-    overflow-x: auto;
+    width: 300px;
 }
+
 
 .imageContainer:hover {
     margin-left: 0 40px;
@@ -95,13 +89,8 @@ section .imageContainer {
     cursor: pointer;
 }
 
-h4 {
-    color: #ced4da;
-}
-
 .imageContainer img {
     width: 100%;
-    height: 200px;
 }
 
 .btn {
@@ -117,7 +106,6 @@ h4 {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
-    display: block;
 }
 
 .form-group {
@@ -136,4 +124,3 @@ h4 {
     border: 1px solid #ced4da;
     border-radius: .25rem;
 }
-
