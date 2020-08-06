@@ -1,0 +1,26 @@
+.g-signin2{
+    margin-left: 8vw;
+    margin-top: 5vw;
+    padding: 4rem;
+    font-size: 26px;
+}
+.container{
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 2%;
+    margin-top: 10vw;
+    color: teal;
+    font-size: 18px;
+    background-color: rgb(213, 200, 224);
+    
+}
+body{
+    background-image: url(../login/images/bck.jpg);
+}
+h2{
+    font-size: 40px;
+    margin-top: 6vw;
+}
+.data{
+    display: none;
+}
