@@ -52,9 +52,7 @@ function insertIframeIntoContent(video, content) {
 function createVideoTemplate(data) {
     const content = this.content;
     content.innerHTML = '<p id="content-close">X</p>';
-
     const videos = data.results || [];
-
     if (videos.length === 0) {
         content.innerHTML = `
             <p id="content-close">X</p>
@@ -72,7 +70,6 @@ function createVideoTemplate(data) {
 function createSectionHeader(title) {
     const header = document.createElement('h2');
     header.innerHTML = title;
-
     return header;
 }
 
