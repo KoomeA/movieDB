@@ -84,7 +84,7 @@ section .imageContainer {
 }
 
 .content{
-    background: #8E0E00;  /* fallback for old browsers */
+    background: #0e0c0c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #13110f, #640a01); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ;
