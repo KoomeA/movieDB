@@ -70,6 +70,10 @@ section .imageContainer {
     left: 20px;
 }
 
+h4{
+    color: ivory;
+    font-size: 1.5rem;
+}
 
 .imageContainer {
     transition: 250ms all;
