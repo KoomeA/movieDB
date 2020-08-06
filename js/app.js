@@ -51,13 +51,13 @@ function insertIframeIntoContent(video, content) {
 
 function createVideoTemplate(data) {
     const content = this.content;
-    content.innerHTML = '<i class="fas fa-window-close"></i>';
+    content.innerHTML = '<i class="fas fa-window-close" id="content-close"></i>';
 
     const videos = data.results || [];
 
     if (videos.length === 0) {
         content.innerHTML = `
-            <i class="fas fa-window-close"></i>
+            <i class="fas fa-window-close" id="content-close"></i>
             <p>No Trailer found for this video id of ${data.id}</p>
         `;
         return;
