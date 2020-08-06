@@ -51,11 +51,16 @@ function insertIframeIntoContent(video, content) {
 
 function createVideoTemplate(data) {
     const content = this.content;
-    content.innerHTML = '<p id="content-close">X</p>';
+
+    content.innerHTML = '<i class="fas fa-window-close" id="content-close"></i>';
+
+
     const videos = data.results || [];
     if (videos.length === 0) {
         content.innerHTML = `
-            <p id="content-close">X</p>
+
+            <i class="fas fa-window-close" id="content-close"></i>
+
             <p>No Trailer found for this video id of ${data.id}</p>
         `;
         return;
@@ -155,7 +160,7 @@ document.onclick = function (event) {
 
 // API 
 // Initial Values
-const MOVIE_DB_API = 'd8bf019d0cca372bd804735f172f67e8';
+const MOVIE_DB_API = '4d6c643773cf99821cfe8369de883a27';
 const MOVIE_DB_ENDPOINT = 'https://api.themoviedb.org';
 const MOVIE_DB_IMAGE_ENDPOINT = 'https://image.tmdb.org/t/p/w500';
 const DEFAULT_POST_IMAGE = 'https://via.placeholder.com/150';
