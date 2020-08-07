@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     margin: 0;
     font-size: 1.2rem;
@@ -78,8 +77,8 @@ h4{
 
 .imageContainer {
     transition: 250ms all;
-    width: 300px;
-    height: 200px;
+    width: 220px;
+    height: 240px;
 }
 
 
@@ -104,6 +103,7 @@ h4{
 
 .imageContainer img {
     width: 100%;
+    height: 240px;
 }
 
 .btn {
@@ -136,4 +136,14 @@ h4{
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
+}
+
+@media only screen and (min-width = 370px) {
+    .tail-top {
+        width: 50%;
+        font-size: 18px;
+
+    }
+  
+
 }
