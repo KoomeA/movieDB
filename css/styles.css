@@ -137,3 +137,13 @@ h4{
     border: 1px solid #ced4da;
     border-radius: .25rem;
 }
+
+@media only screen and (min-width = 370px) {
+    .tail-top {
+        width: 50%;
+        font-size: 18px;
+
+    }
+  
+
+}
